@@ -3,19 +3,18 @@
     "manifest_version": 2,
     "name": "Clipboard Concat",
     "version": "1.0",
-    "homepage_url": "https://www.google.com",
+    "homepage_url": "https://github.com/fezcode/clipboard-concat",
     "icons": {
-      "48": "icons/48.png",
-      "96": "icons/96.png"
+        "48": "icons/48.png",
+        "96": "icons/96.png"
     },
-  
+
     "permissions": [
         "menus", "activeTab", "contextMenus", "clipboardWrite", "clipboardRead"
     ],
 
     "background": {
-      "scripts": [ "background.js" ]
+        "scripts": ["background.js"]
     }
 
-  }
-  
+}
